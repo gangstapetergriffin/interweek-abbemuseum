@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+}
+
+.titlebox {
+    background-color: #9ACD32;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bbb;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(0, 183, 244),blue, rgb(0, 183, 244));
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-image: linear-gradient(lightgreen, green);
+    margin: auto 5px;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background-image: linear-gradient(rgb(119, 194, 119), rgb(0, 97, 0))
+}
+
+.images{
+    margin: 5px auto;
+    width: 512px;
+    height: 512px;
+    animation: imageanimation 10s infinite;
+    animation-timing-function: linear;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@keyframes imageanimation{
+    0%{rotate: 0deg;}
+    25%{rotate: 1deg;}
+    50%{rotate: z -1deg}
+    75%{rotate: z 0deg}
+
+}
+
+.text{
+    width: 512px;
+    height: fit-content;
+    margin: 50px auto;
+    background-image: linear-gradient(rgb(0, 119, 255), aqua);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
