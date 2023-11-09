@@ -1,14 +1,16 @@
 body{
-    background-color: aqua;
+    background-color: #ffca7a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titlebox {
-    background-color: #9ACD32;
+    background-color: #dfff83;
     padding: 5px 5px;
     border-radius: 10px;
     margin: 10px auto;
     width: fit-content;
     height: fit-content;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul {
@@ -18,7 +20,8 @@ ul {
     overflow: hidden;
     background-color: #bbb;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(0, 183, 244),blue, rgb(0, 183, 244));
+    background-image: linear-gradient(to right, #a9e100, #dfff83, #a9e100);
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 li{
@@ -34,7 +37,7 @@ li a{
 }
 
 li a:hover{
-    background-image: linear-gradient(rgb(119, 194, 119), rgb(0, 97, 0))
+    background-image: linear-gradient(rgb(119, 194, 119), rgb(0, 97, 0));
 }
 
 .images{
@@ -58,7 +61,8 @@ li a:hover{
     width: 512px;
     height: fit-content;
     margin: 50px auto;
-    background-image: linear-gradient(rgb(0, 119, 255), aqua);
+    background-color: #dfff83;
     padding: 10px 10px;
     border-radius: 10px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
